@@ -1,0 +1,12 @@
+CREATE TABLE BLOOD_DONOR
+  (
+    DONOR_ID   NUMBER,
+    DONOR_NAME CHAR(50 BYTE),
+    TELEPHONE      CHAR(15 BYTE),
+    EMAIL          CHAR(50 BYTE),
+    BIRTHDATE      DATE,
+    AGE            CHAR(3 BYTE),
+    GENDER         CHAR(6 BYTE),
+    BLOOD_GROUP       CHAR(200 BYTE),
+    PRIMARY KEY (DONOR_ID) 
+  )
